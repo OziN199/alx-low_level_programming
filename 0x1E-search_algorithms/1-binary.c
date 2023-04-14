@@ -10,7 +10,7 @@ void print_array(int *array, size_t low, size_t high)
 {
 	char *delimiter = NULL;
 
-	printf("searching in array: ");
+	printf("Searching in array: ");
 	for (; low <= high; low++)
 	{
 		if (delimiter != NULL)
